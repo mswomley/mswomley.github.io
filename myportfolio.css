@@ -1,0 +1,82 @@
+body {
+    background-color:rgb(244, 218, 238);
+    font-family: 'Agbalumo', serif;
+    background-image: url("purple.png");
+    background-size: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4em;
+    color: rgb(76, 2, 76);
+}
+
+p, p2, p3 {
+    text-align: center;
+    color: rgb(76, 2, 76);
+    font-size: 30px;
+  }
+
+.topnav {
+    text-align: center;
+    overflow: hidden;
+  }
+  
+.topnav a {
+    color: rgb(76, 2, 76);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+.topnav a:hover {
+    background-color: white;
+    color: rgb(76, 2, 76);
+  }
+
+  .profilepic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+  }
+
+.LinkedInLink, .GitHubLink {
+    color: rgb(76, 2, 76);
+  }
+
+.container {  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.25fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Head Head Head"
+      "Left Center Right"
+      "Left Center Right";
+  }
+  
+.Head { grid-area: Head; }
+  
+.Left { grid-area: Left; }
+  
+.Center { grid-area: Center; }
+  
+.Right { grid-area: Right; }
+  
+
+.pinkflower {
+        width: 180px;
+        height: auto;
+        align-self: center;
+    }
+
+  .me {
+    width: 180px;
+  }
+
+
+
+   
